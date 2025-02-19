@@ -70,7 +70,7 @@ class TestMinimum(unittest.TestCase):
         self.assertEqual(3, minimum(self.test_list))
 
     def test_case_09(self):
-        print("A list where one element has a value greater than the maximum permissible limit of an integer.")
+        print("Test Case 09: A list where one element has a value greater than the maximum permissible limit of an integer.")
         self.test_list = [530, 429449672, 97, 23, 46, 59]
         self.assertEqual(23, minimum(self.test_list))
 
